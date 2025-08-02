@@ -1,0 +1,9 @@
+[package]
+name = "angulu-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+angulu-rs = { git = "https://github.com/elvisding0307/angulu-rs.git", tag = "v0.1.0-beta" }
+clap = { version = "4.5.4", features = ["derive"] }
+rpassword = "7.3"
