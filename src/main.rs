@@ -1,9 +1,11 @@
+use std::io::{self, BufRead};
+
 use angulu::crypter::chacha20::ChaCha20CipherAlgorithm;
 use angulu::crypter::sm4::Sm4CipherAlgorithm;
 use angulu::crypter::{StringCrypter, StringCrypterTrait};
+
 use clap::{Parser, ValueEnum};
 use rpassword::prompt_password;
-use std::io::{self, BufRead};
 
 #[derive(ValueEnum, Clone, Copy, Debug, PartialEq, Eq)]
 enum CipherMode {

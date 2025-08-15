@@ -14,7 +14,8 @@ dependencies = [
 [[package]]
 name = "angulu-rs"
 version = "0.1.0"
-source = "git+https://github.com/elvisding0307/angulu-rs.git?tag=v0.1.0-beta#34939dc46231c5224c20afde31e8ac38219ab5bb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5d11af8c39232ace9f2301cf5270f191b6ec0e4023f8dae0f4b9ad819ff260e6"
 dependencies = [
  "base64",
  "chacha20",

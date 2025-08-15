@@ -2,8 +2,13 @@
 name = "angulu-cli"
 version = "0.1.0"
 edition = "2024"
+authors = ["Elvis Ding <elvisding0307@gmail.com>"]
+description = "angulu-cli is a password tool."
+license = "GPL-3.0"
+keywords = ["password", "tool", "encrypt", "decrypt"]
+repository = "https://github.com/elvisding0307/angulu-cli"
 
 [dependencies]
-angulu-rs = { git = "https://github.com/elvisding0307/angulu-rs.git", tag = "v0.1.0-beta" }
+angulu-rs = { version = "0.1.0" }
 clap = { version = "4.5.4", features = ["derive"] }
 rpassword = "7.3"
