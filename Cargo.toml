@@ -1,6 +1,6 @@
 [package]
 name = "angulu-cli"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 authors = ["Elvis Ding <elvisding0307@gmail.com>"]
 description = "angulu-cli is a password tool."
