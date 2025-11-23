@@ -5,12 +5,14 @@
 ## Usage
 
 ```
-Usage: angulu-cli [OPTIONS] <--encrypt|--decrypt>
+Usage: angulu-cli <COMMAND>
+
+Commands:
+  encrypt  Encrypt the input
+  decrypt  Decrypt the input
+  help     Print this message or the help of the given subcommand(s)
 
 Options:
-  -e, --encrypt      Encrypt the input
-  -d, --decrypt      Decrypt the input
-  -m, --mode <MODE>  Cipher mode to use [default: chacha20] [possible values: chacha20, sm4]
-  -h, --help         Print help
-  -V, --version      Print version
+  -h, --help     Print help
+  -V, --version  Print version
 ```
