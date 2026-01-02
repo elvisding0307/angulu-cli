@@ -1,6 +1,6 @@
 [package]
 name = "angulu-cli"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2024"
 authors = ["Elvis Ding <elvisding0307@gmail.com>"]
 description = "angulu-cli is a password tool."
@@ -9,6 +9,6 @@ keywords = ["password", "tool", "encrypt", "decrypt"]
 repository = "https://github.com/elvisding0307/angulu-cli"
 
 [dependencies]
-angulu-rs = { version = "0.1.0" }
-clap = { version = "4.5.4", features = ["derive"] }
-rpassword = "7.3"
+angulu = { version = "=0.1.2" }
+clap = { version = "=4.5.4", features = ["derive"] }
+rpassword = { version = "=7.4.0" }
